@@ -1,12 +1,12 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+"use client";
 
+import { SignInButton, SignedIn, SignedOut, UserButton, useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 
-import { checkUser } from '@/lib/checkUser';
+export default function Navbar() {
+  const { user, isLoaded } = useUser();
 
-export default async function Navbar() {
-  const user = await checkUser();
-  console.log('Current User:', user);
+  if (!isLoaded) return null;
 
   return (
     <nav>
@@ -21,22 +21,15 @@ export default async function Navbar() {
           </div>
 
           <div className='flex items-center space-x-4'>
-            <Link
-              href='/'
-              className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium hidden sm:block'
-            >
+            <Link href='/' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium hidden sm:block'>
               Home
             </Link>
-
-            <Link
-              href='/about'
-              className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium '
-            >
+            <Link href='/about' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
               About
             </Link>
 
             <SignedOut>
-              <SignInButton>
+              <SignInButton mode="modal" fallbackRedirectUrl="/dashboard">
                 <button className='w-full sm:w-auto bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white sm:px-4 sm:py-2 px-3 py-1 text-sm sm:text-md rounded-md font-medium cursor-pointer'>
                   Sign In
                 </button>
@@ -44,7 +37,8 @@ export default async function Navbar() {
             </SignedOut>
 
             <SignedIn>
-              <UserButton />
+              <UserButton afterSignOutUrl="/" />
+              <span className="ml-2">{user?.fullName}</span>
             </SignedIn>
           </div>
         </div>
