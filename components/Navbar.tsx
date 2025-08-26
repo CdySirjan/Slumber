@@ -27,6 +27,9 @@ export default function Navbar() {
             <Link href='/about' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
               About
             </Link>
+            <Link href='/contact' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
+              Contact
+            </Link>
 
             <SignedOut>
               <SignInButton mode="modal" fallbackRedirectUrl="/dashboard">
