@@ -100,12 +100,12 @@ const ContactPage = () => {
           </div>
           <div>
             <h3 className='text-xl font-bold mb-2'>Phone</h3>
-            <p className='text-gray-600'>+1 (123) 456-7890</p>
+            <p className='text-gray-600'>9836541096</p>
           </div>
           <div>
             <h3 className='text-xl font-bold mb-2'>Address</h3>
             <p className='text-gray-600'>
-              123 SleepTracker St, Dream City, USA
+              Chitwan, Nepal
             </p>
           </div>
         </div>
