@@ -89,7 +89,7 @@ const ContactPage = () => {
       </section>
 
       {/* Contact Information Section */}
-      <section className='py-16 px-8 bg-gray-100'>
+      <section className='py-16 px-8 bg-white'>
         <h2 className='text-3xl font-bold text-center mb-8'>
           Contact Information
         </h2>
