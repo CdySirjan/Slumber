@@ -6,7 +6,7 @@ const ContactPage = () => {
       {/* Hero Section */}
       <section className='flex flex-col items-center justify-center text-center py-16 px-8 bg-gray-100'>
         <h1 className='text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>
-          Contact SleepTracker
+          Contact Slumber
         </h1>
         <p className='text-lg md:text-xl bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>
           Have questions or need help? Get in touch with us!
@@ -96,7 +96,7 @@ const ContactPage = () => {
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
           <div>
             <h3 className='text-xl font-bold mb-2'>Email</h3>
-            <p className='text-gray-600'>support@sleeptracker.com</p>
+            <p className='text-gray-600'>support@slumber.com</p>
           </div>
           <div>
             <h3 className='text-xl font-bold mb-2'>Phone</h3>

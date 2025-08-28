@@ -69,19 +69,19 @@ const Guest: React.FC = () => {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-gray-50 p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;SleepTracker has completely transformed my sleep schedule. I feel more energized every day!&quot;
+              &quot;Slumber has completely transformed my sleep schedule. I feel more energized every day!&quot;
             </p>
             <p className="text-purple-500 font-bold">- Sarah L.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;The insights from SleepTracker have helped me identify and fix my sleep issues. Highly recommend it!&quot;
+              &quot;The insights from Slumber have helped me identify and fix my sleep issues. Highly recommend it!&quot;
             </p>
             <p className="text-purple-500 font-bold">- John D.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;SleepTracker is so easy to use and provides accurate data. It&apos;s a must-have for anyone looking to improve their sleep!&quot;
+              &quot;Slumber is so easy to use and provides accurate data. It&apos;s a must-have for anyone looking to improve their sleep!&quot;
             </p>
             <p className="text-purple-500 font-bold">- Emily R.</p>
           </div>

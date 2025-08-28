@@ -6,7 +6,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className='flex flex-col items-center justify-center text-center py-16 px-8 bg-gray-100'>
         <h1 className='text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>
-          About SleepTracker
+          About Slumber
         </h1>
         <p className='text-lg md:text-xl bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>
           Your ultimate companion for tracking sleep and improving your health.
@@ -17,7 +17,7 @@ const AboutPage = () => {
       <section className='py-16 px-8 bg-white'>
         <h2 className='text-3xl font-bold text-center mb-8'>Our Mission</h2>
         <p className='text-gray-600 max-w-3xl mx-auto text-center'>
-          At SleepTracker, we aim to help individuals achieve better sleep and
+          At Slumber, we aim to help individuals achieve better sleep and
           overall well-being by providing insights into their sleep patterns.
           Better sleep leads to a healthier, happier life, and we’re here to
           guide you every step of the way.
@@ -27,7 +27,7 @@ const AboutPage = () => {
       {/* Features Section */}
       <section className='py-16 px-8 bg-gray-100'>
         <h2 className='text-3xl font-bold text-center mb-8'>
-          Why Choose SleepTracker?
+          Why Choose Slumber?
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-md shadow'>
@@ -55,7 +55,7 @@ const AboutPage = () => {
       <section className='py-16 px-8 bg-white'>
         <h2 className='text-3xl font-bold text-center mb-8'>Our Story</h2>
         <p className='text-gray-600 max-w-3xl mx-auto text-center'>
-          SleepTracker was created to address the growing need for better sleep
+          Slumber was created to address the growing need for better sleep
           management tools. Our team of sleep experts and technologists
           developed a platform that combines cutting-edge technology with
           actionable insights. Since our launch, we’ve helped countless users
@@ -69,7 +69,7 @@ const AboutPage = () => {
           Ready to Sleep Better?
         </h2>
         <p className='text-lg mb-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent'>
-          Join SleepTracker today and take the first step towards better sleep
+          Join Slumber today and take the first step towards better sleep
           and a healthier life.
         </p>
         <Link
