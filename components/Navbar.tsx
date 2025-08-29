@@ -21,13 +21,13 @@ export default function Navbar() {
           </div>
 
           <div className='flex items-center space-x-4'>
-            <Link href='/' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium hidden sm:block'>
+            <Link href='/' className='text-white hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium hidden sm:block'>
               Home
             </Link>
-            <Link href='/about' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
+            <Link href='/about' className='text-white hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
               About
             </Link>
-            <Link href='/contact' className='text-gray-700 hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
+            <Link href='/contact' className='text-white hover:text-purple-600 px-2 py-1 rounded-md text-sm sm:px-3 sm:py-2 sm:text-base font-medium'>
               Contact
             </Link>
 
